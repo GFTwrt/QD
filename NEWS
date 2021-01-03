@@ -1,3 +1,19 @@
+Changes for 2.3.22
+    Made changes suggested by Vasiliy Sotnikov
+
+Changes for 2.3.21
+    Changed renorm in include/qd/qd_inline.h
+
+Changes for 2.3.20
+    added #include <string.h> to quadt_test.cpp
+    changed references to 2.3.20 from 2.3.18
+
+Changes for 2.3.19
+  - Updated qd_real.cpp and dd_real.cpp to fix a buffer overflow problem.
+
+Changes for 2.3.18
+  - Updated qd_real.cpp and dd_real.cpp to fix a problem in output.
+
 Changes for 2.3.17
   - updated qd_real.cpp, to fix a problem with improper treatment of
   negative arguments in nroot.
